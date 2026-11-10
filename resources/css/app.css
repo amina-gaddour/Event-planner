@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.input {
+    @apply w-full h-11 px-4 rounded-lg
+           border border-gray-200
+           bg-gray-50
+           text-sm
+           focus:outline-none
+           focus:ring-2 focus:ring-purple-400
+           focus:border-purple-400
+           transition;
+}
